@@ -1,3 +1,8 @@
+const logoStyles = document.createElement('link');
+logoStyles.rel = 'stylesheet';
+logoStyles.href = 'logo.css';
+document.head.appendChild(logoStyles);
+
 const menuToggle = document.querySelector('.menu-toggle');
 const mobileMenu = document.querySelector('.mobile-menu');
 
